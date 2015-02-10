@@ -1,0 +1,115 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  height: 25em;
+  width: 100%;
+}
+
+p, ul {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#content {
+  width: 46.875em;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.head {
+  background-image: url("https://unsplash.imgix.net/photo-1419064642531-e575728395f2?q=75&fm=jpg&s=490dffe2e11f468947891ab40651e176");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% 40%;
+  background: ##000099;
+  border-top: 1em solid #4C2D08; 
+  box-shadow: 0px 5px 5px rgba(68,68,68,0.6);
+}
+
+header p.header-first, p.header-second {
+  text-align: center;
+  font-family: 'La Belle Aurore', cursive;
+}
+
+header p.header-first {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 3em;
+  line-height: 0;
+  padding-top: 2em;
+  color: #4C2D08;
+}
+ 
+header p.header-second {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 8em;
+  line-height: 0;
+  color: #fff;
+  text-shadow: 2px 1px 1px #4C2D08;
+}
+
+h1, h3 {
+  font-family: 'La Belle Aurore', cursive;
+}
+
+h1 {
+  font-size: 2.5em;
+  padding: 0;
+  margin: 1em 0 -0.5em 0;
+  color: #180040;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #4C2D08;
+  margin: 1em 0 -0.5em 0;
+}
+
+#content a:link {
+  text-decoration: none;
+  color: #5600E5;
+  font-weight: 700;
+}
+
+#content a:hover {
+  color: #078C21;
+}
+
+footer {
+  width: 100%;
+  margin: auto;
+  background-color: #4C2D08;
+  height: 7em;
+  padding-top: 1em;
+}
+
+.footer, .footer-list {
+  color: #FFF;
+  font-size: 0.8em;
+  text-align: center;
+  vertical-align: center;
+}
+
+.footer-list {
+  margin: auto;
+  padding: 0;
+}
+
+.footer-list > li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 1em;
+  list-style-position: inside;
+}
+
+.footer a, .footer-list a {
+  color: #F26D05;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+
+  
+  
