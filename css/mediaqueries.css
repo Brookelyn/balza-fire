@@ -1,16 +1,43 @@
 @media only screen and (max-width: 500px) {
   
-  header {
-    height: 50%;
-  }
+	/* Header */
 
-  .header-content h2 {
-  font-size: 2em;
- 
-}
- 
-.header-content h1 {
-  font-size: 6em;
-} 
+	header {
+    	height: 50%;
+  	}
 
+	.header-content h2 {
+  		font-size: 2em;
+ 	}
+ 
+	.header-content h1 {
+  		font-size: 6em;
+  	}
+
+
+
+
+  	/* Main */
+
+  	#content {
+  		padding-left: 1em;
+  		padding-right: 1em;
+  		padding-top: 0;
+  	}
+
+  	#content h3 {
+  		font-family: 'Open Sans', sans-serif;
+  		font-size: 1em;
+  		font-weight: 700;
+  		line-height: 125%;
+  	}
+
+
+
+  	/* Footer */
+
+  	.footer {
+  		padding-left: 1em;
+  		padding-right: 1em;
+  	}
 }

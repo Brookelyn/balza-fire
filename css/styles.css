@@ -66,7 +66,7 @@ h1, h2, h3 {
 
 p, ul, li, a {
   font-family: 'Open Sans', sans-serif;
-  line-height: 125%;
+  line-height: 150%;
 }
 
 #content, .header-content, .navigation-bar {
@@ -91,7 +91,7 @@ header {
   background-position: 60% 40%;
   background: ##000099;
   box-shadow: 0px 5px 5px rgba(68,68,68,0.6);
-  margin-bottom: 5em;
+  margin-bottom: 2.5em;
 }
 
 .top-navigation {
@@ -166,7 +166,6 @@ h3 {
 }
 
 #content p {
-  line-height: 125%;
   padding-bottom: 0.5em;
 }
 
@@ -192,7 +191,7 @@ footer {
   margin: auto;
   background-color: #4C2D08;
   height: 7em;
-  padding-top: 1em;
+  padding-top: 2em;
 }
 
 .footer, .footer-list {
@@ -210,12 +209,12 @@ footer {
 .footer-list > li {
   list-style: none;
   display: inline-block;
-  padding: 0 1em;
+  padding: 1em 1em 1.5em;
   list-style-position: inside;
 }
 
 .footer a, .footer-list a {
   color: #F26D05;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 600;
 }
