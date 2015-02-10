@@ -20,9 +20,7 @@
   	/* Main */
 
   	#content {
-  		padding-left: 1em;
-  		padding-right: 1em;
-  		padding-top: 0;
+  		padding: 0 1em 0;
   	}
 
   	#content h3 {
@@ -39,5 +37,12 @@
   	.footer {
   		padding-left: 1em;
   		padding-right: 1em;
+  	}
+}
+
+@media only screen and (min-width: 501px) and (max-width: 760px) {
+
+	#content {
+  		padding: 0 1em 0;
   	}
 }
