@@ -1,69 +1,173 @@
+/* Reset styles */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+
+
+/* Global */
+
 body {
   margin: 0 auto;
   padding: 0;
 }
 
-header {
-  height: 25em;
-  width: 100%;
+h1, h2, h3 {
+  font-family: 'La Belle Aurore', cursive;
 }
 
-p, ul {
+p, ul, li, a {
   font-family: 'Open Sans', sans-serif;
+  line-height: 125%;
 }
 
-#content {
-  width: 46.875em;
+#content, .header-content, .navigation-bar {
+  max-width: 46.875em;
   margin: 0 auto;
   padding-bottom: 2em;
 }
 
-.head {
+
+
+
+
+
+/* Header */
+
+header {
+  height: 55%;
+  width: 100%;
   background-image: url("https://unsplash.imgix.net/photo-1419064642531-e575728395f2?q=75&fm=jpg&s=490dffe2e11f468947891ab40651e176");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 60% 40%;
   background: ##000099;
-  border-top: 1em solid #4C2D08; 
   box-shadow: 0px 5px 5px rgba(68,68,68,0.6);
+  margin-bottom: 5em;
 }
 
-header p.header-first, p.header-second {
+.top-navigation {
+  width: 100%;
+  height: 10%;
+  background-color: #4C2D08;
+  margin: 0 auto;
+  padding: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav p, li {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  text-align: right;
+  padding: 0.5em 0 0 1em;
+
+}
+
+nav li:active {
+  color: #F26D05;
+}
+
+.header-content {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.header-content h1, h2 {
   text-align: center;
-  font-family: 'La Belle Aurore', cursive;
 }
 
-header p.header-first {
-  font-family: 'La Belle Aurore', cursive;
+.header-content h2 {
   font-size: 3em;
   line-height: 0;
   padding-top: 2em;
   color: #4C2D08;
 }
  
-header p.header-second {
+.header-content h1 {
   font-family: 'La Belle Aurore', cursive;
   font-size: 8em;
   line-height: 0;
   color: #fff;
   text-shadow: 2px 1px 1px #4C2D08;
-}
+} 
 
-h1, h3 {
-  font-family: 'La Belle Aurore', cursive;
-}
+
+
+
+
+
+/* Main content */
 
 h1 {
   font-size: 2.5em;
   padding: 0;
-  margin: 1em 0 -0.5em 0;
+  margin: 1em 0 0.5em 0;
   color: #180040;
 }
 
 h3 {
   font-size: 1.5em;
   color: #4C2D08;
-  margin: 1em 0 -0.5em 0;
+  margin: 1em 0 0.25em 0;
+}
+
+#content p {
+  line-height: 125%;
+  padding-bottom: 0.5em;
 }
 
 #content a:link {
@@ -75,6 +179,13 @@ h3 {
 #content a:hover {
   color: #078C21;
 }
+
+
+
+
+
+
+/* Footer */
 
 footer {
   width: 100%;
@@ -108,8 +219,3 @@ footer {
   text-decoration: none;
   font-weight: 700;
 }
-
-
-
-  
-  

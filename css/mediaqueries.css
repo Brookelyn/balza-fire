@@ -1,0 +1,16 @@
+@media only screen and (max-width: 500px) {
+  
+  header {
+    height: 50%;
+  }
+
+  .header-content h2 {
+  font-size: 2em;
+ 
+}
+ 
+.header-content h1 {
+  font-size: 6em;
+} 
+
+}
