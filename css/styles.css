@@ -130,6 +130,10 @@ header {
   font-weight: 600;
 }
 
+.nav-links a:hover {
+  color: #F2AD5A;
+}
+
 .header-content {
   margin: 0 auto;
   width: 75%;
@@ -185,7 +189,7 @@ h3 {
 }
 
 #content a:hover {
-  color: #078C21;
+  color: #F26D05;
 }
 
 section {
@@ -286,15 +290,22 @@ footer {
     transform: translateY(-50%) translateX(-50%);
   }
   
-.project-item .mask::hover {
-  width: 100%;
-  height: 100%;
+.project-item h2 {
   position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  transition: all 0.3s ease-in-out;
-  padding-top: 50px;
-  opacity: 1;
-  background-color: #180040;
-  }
+  z-index: 9999;
+  width: 100%;
+  color: #FFF;
+  top: 75%;
+  left: 0%;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; 
+  text-align: left;
+  background: #180040;
+  padding: 5% 0 75% 1em;
+  word-wrap: break-word;
+}
+
+
+
+  
