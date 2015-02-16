@@ -102,23 +102,32 @@ header {
   padding: 0;
 }
 
-nav ul {
+.top-navigation ul {
   margin: 0;
   padding: 0;
+  text-align: right;
+  white-space: nowrap;
 }
 
-nav p, li {
+.navigation-bar li {
   color: #FFF;
-  text-decoration: none;
+  list-style-type: none;
   font-weight: 700;
   display: inline-block;
   text-align: right;
   padding: 0.5em 0 0 1em;
-
 }
 
-nav li:active {
+.navigation-bar li > a {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: right;
+}
+
+.nav-links li.active a {
   color: #F26D05;
+  font-weight: 600;
 }
 
 .header-content {
